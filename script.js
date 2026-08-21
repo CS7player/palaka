@@ -70,7 +70,7 @@ darkModeBtn.addEventListener("click", () => {
         logo.src = "light.png";
     } else {
         canvas.style.background = "var(--white-color)";
-        ctx.strokeStyle = "var(--black-color)";
+        ctx.strokeStyle = "black";
         document.querySelector("header").style.background = "var(--white-color)";
         document.querySelector("header").style.color = "var(--black-color)";
         logo.src = "dark.png";
